@@ -7,15 +7,14 @@ let advice;
 
 async function fetchAdvice() {
   try {
-    const response = await axios.get('https://api.adviceslip.com/advice');
-    adviceNumber = response.data.slip.id;
-    advice = response.data.slip.advice;
+    const fetchedResponse = await axios.get('https://api.adviceslip.com/advice');
+    adviceNumber = fetchedResponse.data.slip.id;
+    advice = fetchedResponse.data.slip.advice;
+    return [adviceNumber, advice];
   } catch (error) {
     console.error(error);
+    return null;
   }
 }
 
-await fetchAdvice();
-
-const response = [adviceNumber, advice];
-export default response;
+export default fetchAdvice;
