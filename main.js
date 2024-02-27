@@ -16,7 +16,7 @@ async function displayAdvice() {
   }
 }
 
-// Roep displayAdvice() aan om het advies op te halen en weer te geven
+// Call displayAdvice() to display a new advice
 displayAdvice();
 
 // Display new advice when button is clicked
