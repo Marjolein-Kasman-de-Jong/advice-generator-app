@@ -137,15 +137,12 @@ button {
   border: none;
   border-radius: 50%;
   background-color: var(--neon-green);
+  -webkit-tap-highlight-color: transparent;
 }
 
 button:hover {
   cursor: pointer;
   box-shadow: 0 0 40px 3px var(--neon-green);
-}
-
-button:focus, button:active {
-  box-shadow: none;
 }
 
 .dice-wrapper {
