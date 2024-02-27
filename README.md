@@ -3,7 +3,7 @@
 
 ### Description
 
-The [challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) was to build out this pricing component and get it looking as close to the design as possible.
+The [challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) was to build out this advice generator app and get it looking as close to the design as possible.
 
 Users should be able to:
 
