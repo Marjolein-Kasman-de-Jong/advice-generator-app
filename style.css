@@ -135,13 +135,17 @@ button {
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 50%;;
+  border-radius: 50%;
   background-color: var(--neon-green);
 }
 
 button:hover {
   cursor: pointer;
   box-shadow: 0 0 40px 3px var(--neon-green);
+}
+
+button:focus, button:active {
+  box-shadow: none;
 }
 
 .dice-wrapper {
