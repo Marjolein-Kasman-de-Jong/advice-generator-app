@@ -142,7 +142,10 @@ button {
 
 button:hover {
   cursor: pointer;
-  box-shadow: 0 0 40px 3px var(--neon-green);
+
+  @media screen and (min-width: 580px) {
+    box-shadow: 0 0 40px 3px var(--neon-green);
+  }
 }
 
 .dice-wrapper {
