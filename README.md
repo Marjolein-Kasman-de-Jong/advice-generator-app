@@ -1,11 +1,8 @@
 # Advice Generator App
-## Frontend Mentor Challenge
 
-### Description
+[Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
-The [challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) was to build out this advice generator app and get it looking as close to the design as possible.
-
-Users should be able to:
+The challenge was to build out the advice generator app and get it looking as close to the design as possible. Users should be able to:
 
 * View the optimal layout for the app depending on their device's screen size
 * See hover states for all interactive elements on the page
